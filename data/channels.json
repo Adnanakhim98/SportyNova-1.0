@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Demo News Channel",
+    "category": "News",
+    "logo": "",
+    "status": "DEMO",
+    "servers": [
+      {
+        "name": "Server 1",
+        "url": ""
+      },
+      {
+        "name": "Server 2",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Demo Entertainment",
+    "category": "Entertainment",
+    "logo": "",
+    "status": "DEMO",
+    "servers": [
+      {
+        "name": "Server 1",
+        "url": ""
+      },
+      {
+        "name": "Server 2",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Demo Sports TV",
+    "category": "Sports",
+    "logo": "",
+    "status": "DEMO",
+    "servers": [
+      {
+        "name": "Server 1",
+        "url": ""
+      },
+      {
+        "name": "Server 2",
+        "url": ""
+      }
+    ]
+  }
+]

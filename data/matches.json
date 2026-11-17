@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Demo Football Match",
+    "category": "Football",
+    "startTime": "Add match time",
+    "status": "UPCOMING",
+    "servers": [
+      {
+        "name": "Server 1 • HLS",
+        "url": ""
+      },
+      {
+        "name": "Server 2 • DASH",
+        "url": ""
+      },
+      {
+        "name": "Server 3 • HLS",
+        "url": ""
+      },
+      {
+        "name": "Server 4 • DASH",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Demo Cricket Match",
+    "category": "Cricket",
+    "startTime": "Add match time",
+    "status": "UPCOMING",
+    "servers": [
+      {
+        "name": "Server 1 • HLS",
+        "url": ""
+      },
+      {
+        "name": "Server 2 • DASH",
+        "url": ""
+      },
+      {
+        "name": "Server 3 • HLS",
+        "url": ""
+      },
+      {
+        "name": "Server 4 • DASH",
+        "url": ""
+      }
+    ]
+  }
+]
