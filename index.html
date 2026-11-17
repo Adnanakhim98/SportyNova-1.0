@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080b18"><meta name="description" content="SportyNova 1.0 — Live TV and Sports">
+<title>SportyNova 1.0 | Live TV & Sports</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dashjs@4.7.4/dist/dash.all.min.js"></script>
+</head>
+<body>
+<div class="ambient a1"></div><div class="ambient a2"></div>
+<header class="topbar">
+ <a class="brand" href="#"><span class="brand-mark">S</span><span>SPORTY<span class="neon">NOVA</span><small>LIVE TV • SPORTS</small></span></a>
+ <div class="header-right"><span class="live-dot"></span><span class="live-label">LIVE EXPERIENCE</span><button class="icon-btn" id="themeGlow" aria-label="Glow effect">✦</button></div>
+</header>
+<main>
+<section class="hero">
+ <div class="hero-copy"><div class="eyebrow"><span></span> YOUR WORLD. YOUR LIVE.</div>
+  <h1>Stream beyond<br><span>the ordinary.</span></h1>
+  <p>Live television and sports, gathered in one premium viewing space.</p>
+  <div class="hero-actions"><button class="primary-btn" data-tab="sports">Explore Sports <b>↗</b></button><button class="ghost-btn" data-tab="tv">Browse TV</button></div>
+ </div>
+ <div class="hero-orb"><div class="orb-ring ring1"></div><div class="orb-ring ring2"></div><div class="orb-core"><span>SN</span><small>1.0</small></div><div class="orb-tag">LIVE<br>STREAMING</div></div>
+</section>
+<nav class="tabs"><button class="tab active" data-tab="tv">▣ <span>Live TV</span></button><button class="tab" data-tab="sports">◉ <span>Live Sports</span></button></nav>
+<section class="content-head"><div><div class="eyebrow">NOW ON AIR</div><h2 id="sectionTitle">Live TV Channels</h2></div><div class="tools"><input id="search" type="search" placeholder="Search channels..." aria-label="Search"><select id="category"><option value="all">All categories</option></select></div></section>
+<div class="status-line" id="status">Loading your lineup…</div>
+<section id="cards" class="cards" aria-live="polite"></section>
+<section class="notice"><span>ⓘ</span><p><b>Stream source note:</b> This starter includes demo listings only. Add streams you own or are authorized to distribute in <code>data/channels.json</code> and <code>data/matches.json</code>.</p></section>
+</main>
+<footer><span>© 2026 SportyNova 1.0</span><span>BUILT FOR THE BIG MOMENTS <i>✦</i></span></footer>
+<div class="player-backdrop" id="player" aria-hidden="true">
+ <div class="player-shell"><div class="player-top"><div><span class="live-dot"></span><b id="playerTitle">Now Playing</b></div><button id="closePlayer" class="close-btn">✕</button></div>
+  <div class="video-wrap" id="videoWrap"><video id="video" controls playsinline></video><div class="player-overlay" id="playerOverlay"><span>SPORTYNOVA</span><small>Select a server to start playback</small></div></div>
+  <div class="server-row" id="serverRow"></div><div class="player-foot" id="playerStatus">Choose an available server</div>
+ </div>
+</div>
+<script src="app.js"></script>
+</body></html>
